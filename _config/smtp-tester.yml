@@ -3,4 +3,4 @@ Name: silverstripe-smtp-tester
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-  - 'resources/silverstripe-smtp-tester/css/menu-icon.css'
+  - 'resources/vendor/innis-maggiore/silverstripe-smtp-tester/css/menu-icon.css'
