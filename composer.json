@@ -1,7 +1,7 @@
 {
     "name": "innis-maggiore/silverstripe-smtp-tester",
     "description": "Silverstripe SMTP Tester allows developers to test their site's SMTP configuration from the admin area.",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/InnisMaggiore/silverstripe-smtp-tester",
     "keywords": ["silverstripe", "smtp"],
     "license": "BSD-3-Clause",
@@ -19,8 +19,20 @@
     },
     "require": {
         "php": ">=5.6.0",
-        "silverstripe/framework": "^3.5",
-        "silverstripe/cms": "^3.5"
+        "silverstripe/framework": "^4.2",
+        "silverstripe/cms": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "InnisMaggiore\\SilverstripeSMTPTester\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "silverstripe-smtp-tester",
+        "expose": [
+            "css",
+            "images"
+        ]
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
