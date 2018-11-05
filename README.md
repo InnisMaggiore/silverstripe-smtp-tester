@@ -10,6 +10,8 @@ $ composer require innis-maggiore/silverstripe-smtp-tester ^1.0
 ```
 * Run `/dev/build?flush=1`
 
+Use the `4.0` tag ([master branch](https://github.com/InnisMaggiore/silverstripe-smtp-tester/tree/master)) for SilverStripe 3 sites.
+
 ##### Manual Installation
 
 * Install the contents of this repository in the root of your SilverStripe project in a directory named "silverstripe-smtp-tester".
