@@ -22,6 +22,9 @@
         "silverstripe/framework": "^3.5",
         "silverstripe/cms": "^3.5"
     },
+    "replace": {
+        "creativecodelabs/silverstripe-smtp-tester": "*"
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
