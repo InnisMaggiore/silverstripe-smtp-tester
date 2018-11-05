@@ -22,6 +22,9 @@
         "silverstripe/framework": "^4.2",
         "silverstripe/cms": "^4.2"
     },
+    "replace": {
+        "creativecodelabs/silverstripe-smtp-tester": "*"
+    },
     "autoload": {
         "psr-4": {
             "InnisMaggiore\\SilverstripeSMTPTester\\": "src/"
